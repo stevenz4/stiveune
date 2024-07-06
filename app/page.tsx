@@ -4,17 +4,9 @@ interface Props {}
 
 const Home: NextPage<Props> = ({}) => {
   return (
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontSize: "14rem",
-        color: "#ECD354",
-      }}
-    >
-      <h1>Stiveune</h1>
+    <div className="flex flex-col justify-center items-center h-screen text-4xl text-yellow-300">
+      <h1 className="text-14xl">Stiveune</h1>
+      <h2 className="text-5xl">Just a way to showcase myself</h2>
     </div>
   );
 };
