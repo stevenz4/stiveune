@@ -40,3 +40,7 @@ jspm_packages
 # Vscode
 .vscode
 *.code-workspace
+
+*.DS_Store
+*.swp
+*.swo

@@ -14,13 +14,13 @@
     url("../public/fonts/Rogbold.woff") format("woff");
 }
 
-body {
-  font-family: "Rogbold", sans-serif;
-  background: #262626;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+body {
+  font-family: "Rogbold", sans-serif;
+  background: #262626;
 }
