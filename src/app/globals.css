@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: "Rogbold";
-  src: url("../public/fonts/Rogbold.woff2") format("woff2"),
-    url("../public/fonts/Rogbold.woff") format("woff");
+  src: url("../../public/fonts/Rogbold.woff2") format("woff2"),
+    url("../../public/fonts/Rogbold.woff") format("woff");
 }
 
 @layer utilities {
@@ -22,5 +22,5 @@
 
 body {
   font-family: "Rogbold", sans-serif;
-  background: #262626;
+  background: #242222;
 }
