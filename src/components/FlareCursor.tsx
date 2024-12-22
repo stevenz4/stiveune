@@ -10,7 +10,7 @@ function FlareCursor() {
   const handleMouseMove = (e: MouseEvent) => {
     setPosition({ x: e.clientX, y: e.clientY });
 
-    const target = e.target;
+    const target = e.target as Element;
 
     setIsPointer(
       window.getComputedStyle(target).getPropertyValue("cursor") === "pointer"
